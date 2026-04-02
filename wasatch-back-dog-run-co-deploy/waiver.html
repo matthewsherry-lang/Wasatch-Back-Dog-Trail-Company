@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waiver | Wasatch Back Dog Run Co. LLC</title>
+    <meta
+      name="description"
+      content="Download and review the Wasatch Back Dog Run Co. LLC client waiver for trail running and transport services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="brand">
+        <img src="images/Logo.png" alt="Wasatch Back Dog Run Co. LLC logo" />
+        <span>Wasatch Back Dog Run Co. LLC</span>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+        Menu
+      </button>
+      <nav id="main-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about-human-runner.html">About The Team</a>
+        <a href="#waiver">Waiver Details</a>
+        <a href="index.html#book">Book</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inner-hero waiver-hero">
+        <img class="waiver-hero-logo" src="images/Logo.png" alt="Wasatch Back Dog Run Co. LLC logo" />
+        <div class="hero-content">
+          <p class="eyebrow">Client Waiver</p>
+          <h1>Online Waiver and Download</h1>
+          <p>
+            Review waiver terms below and download a copy for signature and records.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="waiver-template.txt" download>Download Waiver</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="waiver">
+        <p class="eyebrow">Waiver Terms</p>
+        <h2>Signed Waiver Covers</h2>
+        <div class="waiver-card">
+          <ul class="waiver-list">
+            <li>Off-leash risk</li>
+            <li>Trail hazards</li>
+            <li>Wildlife encounters</li>
+            <li>Vehicle transport and proof of vaccinations</li>
+          </ul>
+          <p>
+            By participating in services, owners acknowledge the above conditions and agree to keep all
+            vaccination records current and available.
+          </p>
+        </div>
+        <form class="waiver-form" id="waiver-form" action="https://formsubmit.co/wbtrailrunco@gmail.com" method="post">
+          <input type="hidden" name="_subject" value="New Waiver Submission - Wasatch Back Dog Run Co. LLC" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="thank-you.html" />
+          <input type="hidden" name="_cc" id="waiver-cc" />
+          <input type="hidden" name="_replyto" id="waiver-replyto" />
+          <h3>Complete Online Waiver</h3>
+          <div class="waiver-grid">
+            <label>
+              Owner Name
+              <input type="text" name="owner_name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="owner_email" required />
+            </label>
+            <label>
+              Cell Phone
+              <input type="tel" name="owner_cell_phone" required />
+            </label>
+            <label>
+              Dog Name(s)
+              <input type="text" name="dog_names" required />
+            </label>
+            <label>
+              Emergency Contact Name
+              <input type="text" name="emergency_name" required />
+            </label>
+            <label>
+              Emergency Contact Phone
+              <input type="tel" name="emergency_phone" required />
+            </label>
+          </div>
+
+          <fieldset class="day-picks">
+            <legend>Required Acknowledgements</legend>
+            <p>By signing below, I acknowledge and agree to the following:</p>
+            <ol class="waiver-definitions">
+              <li>
+                <strong>Off-leash risk</strong>
+                <p>
+                  I understand my dog may be run in controlled off-leash or transition areas depending on route,
+                  safety, and behavior. I accept associated risks.
+                </p>
+              </li>
+              <li>
+                <strong>Trail hazards</strong>
+                <p>
+                  I understand mountain terrain includes hazards such as uneven surfaces, rocks, ice, mud, steep
+                  grades, stream crossings, and changing weather.
+                </p>
+              </li>
+              <li>
+                <strong>Wildlife</strong>
+                <p>
+                  I understand wildlife encounters are possible, including deer, moose, and other animals. I accept
+                  associated risks.
+                </p>
+              </li>
+              <li>
+                <strong>Vehicle transport and proof of vaccinations</strong>
+                <p>
+                  I authorize vehicle transport for pickup/drop-off and trail access. I certify that vaccination
+                  records are current and agree to provide proof of vaccinations upon request.
+                </p>
+              </li>
+            </ol>
+            <p>
+              I certify my dog is physically fit for trail running activity and I have disclosed relevant health or
+              behavior concerns.
+            </p>
+            <label class="check-item">
+              <input type="checkbox" name="ack_off_leash" value="Accepted" required />
+              I have read and agree to Off-leash risk.
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="ack_trail_hazards" value="Accepted" required />
+              I have read and agree to Trail hazards.
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="ack_wildlife" value="Accepted" required />
+              I have read and agree to Wildlife risk.
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="ack_transport_vax" value="Accepted" required />
+              I have read and agree to Vehicle transport and vaccination requirements.
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="ack_fitness_disclosure" value="Accepted" required />
+              I certify my dog is physically fit and all relevant health/behavior concerns are disclosed.
+            </label>
+          </fieldset>
+
+          <label>
+            Owner Signature (type full legal name)
+            <input type="text" name="signature" required />
+          </label>
+          <label>
+            Signature Date
+            <input type="date" name="signature_date" required />
+          </label>
+          <button class="btn btn-solid" type="submit">Save Waiver</button>
+          <p class="form-help" id="waiver-status">Waiver not yet completed.</p>
+          <p class="form-help">After saving, return to <a href="index.html#book">Book a Run</a> to submit.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="insured-note">Fully insured for canine trail running and transport services.</p>
+      <p><img class="footer-logo" src="images/Logo.png" alt="Wasatch Back Dog Run Co. LLC logo" /> Wasatch Back Dog Run Co. LLC • Midway, Utah • 801-634-2400 • wbtrailrunco@gmail.com</p>
+      <a href="index.html">Back to home</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
